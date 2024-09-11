@@ -1,1 +1,1 @@
-"# RL-to-solve-NP-C" 
+`pip install -r req.txt`
