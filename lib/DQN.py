@@ -1,9 +1,9 @@
-import pytorch
+import torch
 import numpy
-import collections
+import random
+from collections import deque, namedtuple
 
-
-Transition = collections.namedtuple('Transition',
+Transition = namedtuple('Transition',
                         ('state', 'action', 'next_state', 'reward'))
 
 
